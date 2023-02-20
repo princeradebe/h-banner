@@ -4,7 +4,16 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    colors: {
+      hubRed: '#EC6664',
+      hubRedDark: '#cc4d59',
+    },
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/src/Assets/Images/Group_39403_min.png')",
+      },
+    },
   },
   plugins: [],
 }
+

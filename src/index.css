@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+h1,
+p,
+button {
+    color: white;
+}
+
+.outline-button:hover {
+    color: black;
+}
