@@ -48,7 +48,7 @@ function App() {
   };
 
   return (
-    <div className="flex flex-col pt-[136px] w-full h-[776px] justify-center pl-8 xl:pl-[390px] bg-hero-pattern bg-[#000] bg-opacity-70 bg-blend-hard-light font-display">
+    <div className="flex flex-col pt-[136px] w-full h-[776px] justify-center pl-8 xl:pl-[20%] bg-hero-pattern bg-[#000] bg-opacity-70 bg-blend-hard-light font-display">
       {/* Top Section */}
       <div className="w-[420px] xl:w-[640px]">
         <h6 className="text-hubRed text-lg  font-bold">Monolith</h6>
